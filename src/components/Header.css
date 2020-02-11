@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Lato', 'ariel',sans-serif;
+}
+.wrap{
+    height:90vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/ominibackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    margin-top: 20px;
+    height: 100px;
+    width: auto;
+
+}
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+} 
+
+.nav-content{
+    display: flex;
+     justify-content: space-between;
+ }
+ .main-nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 40px;  
+  
+
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+     color: white;
+     text-transform:uppercase;
+     font-size: 15px;
+    text-decoration: none;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid orange;
+}
+.text{
+    font-size: 15px;
+    color: white;
+    margin: 15vh;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 10px;
+    float: left;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 1px solid #e67e22;
+}
+
+.btn-full{
+    background-color: #e67e22; 
+    color: #fff;
+    margin-right: 10px;
+}
+
+.btn-ghost{
+    color:  #e67e22;;
+}
+
+.btn-full:hover{
+    background-color: #a5540d;
+
+}
+
+.btn-ghost:hover{
+    color: #fff;
+    background-color:#e67e22;
+    
+}
+
+
+
+
+
+
+
+
